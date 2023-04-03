@@ -1,0 +1,12 @@
+Friday
+Morning: 10 AM - 12 PM
+Evening: 3 PM - 4.30 PM
+Night: 10 PM - 12 AM
+Saturday
+Morning: No support session
+Evening: 3 PM - 4.30 PM
+Night: 10 PM - 12 AM
+Sunday - Thursday
+Morning: 10 AM - 12 PM
+Evening: 3 PM - 4.30 PM
+Night: 10 PM - 12 AM

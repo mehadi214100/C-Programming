@@ -1,6 +1,8 @@
 #include<stdio.h>
 
 int main(){
-    printf("Hello Programmer");
+    int num;
+    scanf("%d",&num);
+    printf("%d",num);
     return 0;
 }
