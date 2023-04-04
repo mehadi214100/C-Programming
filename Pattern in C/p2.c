@@ -1,4 +1,10 @@
 #include<stdio.h>
+// code by mehadi
+//     5    
+//    454   
+//   34543  
+//  2345432 
+// 123454321
 
 int main(){
 

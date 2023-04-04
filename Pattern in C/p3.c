@@ -1,5 +1,15 @@
 #include<stdio.h>
 
+// code by mehadi 
+
+// 543212345
+//  4321234 
+//   32123  
+//    212   
+//     1    
+
+
+
 int main(){
 
     int n;

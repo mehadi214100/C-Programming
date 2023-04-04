@@ -1,4 +1,10 @@
 #include<stdio.h>
+// code by mehadi 
+// 9
+// 8 6
+// 7 5 3
+// 4 2 0 -2
+// 1 -1 -3 -5 -7
 
 int main(){
     int n;
