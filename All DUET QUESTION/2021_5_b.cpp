@@ -18,7 +18,50 @@ class Family{
             }
             cout<<"Average age :"<<sum*1.0/size<<endl;
         }
+        void eldest(Family &f1);
+        void youngest(Family &f1);
+
 };
+
+void Family::youngest(Family &f1){
+    int minimum = min(*min_element(f1.ages,f1.ages+f1.size),*min_element(ages,ages+size));
+    string youngest;
+    for (int i = 0; i < f1.size; i++)
+    {
+        if(f1.ages[i]==minimum){
+            youngest = f1.names[i];
+        }
+    }
+    for (int i = 0; i < size; i++)
+    {
+        if(ages[i]==minimum){
+            youngest = names[i];
+        }
+    }
+    cout<<"Youngest Member "<<youngest<<"\t"<<minimum<<endl;
+
+};
+
+void Family::eldest(Family &f1){
+    int maximum = max(*max_element(f1.ages,f1.ages+f1.size),*max_element(ages,ages+size));
+    string eldest;
+    for (int i = 0; i < f1.size; i++)
+    {
+        if(f1.ages[i]==maximum){
+            eldest = f1.names[i];
+        }
+    }
+    for (int i = 0; i < size; i++)
+    {
+        if(ages[i]==maximum){
+            eldest = names[i];
+        }
+    }
+    cout<<"Eldest Member "<<eldest<<"\t"<<maximum<<endl;
+
+};
+
+
 
 
 int main(){
@@ -30,32 +73,7 @@ int main(){
     Family f1(5,name,age),f2(3,name1,age1);
     f1.display();
     f2.display();
-    
-    int maximum = max(*max_element(age,age+5),*max_element(age1,age1+3));
-    int minimum = min(*min_element(age,age+5),*min_element(age1,age1+3));
-    string youngest,eldest;
-    for (int i = 0; i < 5; i++)
-    {
-        if(age[i]==maximum){
-            eldest = name[i];
-        }
-        if(age[i]==minimum){
-            youngest = name[i];
-        }
-    }
-    for (int i = 0; i < 3; i++)
-    {
-        if(age1[i]==maximum){
-            eldest = name1[i];
-        }
-        if(age1[i]==minimum){
-            youngest = name1[i];
-        }
-    }
-    
-    cout<<"Youngest Member "<<youngest<<"\t"<<minimum<<endl;
-    cout<<"Eldest Member "<<eldest<<"\t"<<maximum<<endl;
-
-
+    f1.youngest(f2);
+    f1.eldest(f2);
     return 0;
 }
