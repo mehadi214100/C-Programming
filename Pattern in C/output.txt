@@ -1,4 +1,5 @@
-ABCD
-CDA
-AB
-C
+ABCBA
+AB BA
+A   A
+AB BA
+ABCBA
