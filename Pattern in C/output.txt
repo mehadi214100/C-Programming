@@ -1,10 +1,4 @@
-1
-21
-321
-4321
-54321
-a
-ba
-cba
-dcba
-edcba
+ABCD
+CDA
+AB
+C
