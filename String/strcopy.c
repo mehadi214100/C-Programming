@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+void strcopy(char d[],char s[]){
+    int i;
+    for (i = 0; s[i] != '\0'; i++)
+    {
+        d[i] = s[i];
+    }
+    d[i] = '\0';
+}
+
+
+int main(){
+    char source[30];
+    char destination[30];
+    gets(source);
+    strcopy(destination,source);
+    printf("%s",destination);
+    
+    return 0;
+} 
