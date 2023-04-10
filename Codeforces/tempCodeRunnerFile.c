@@ -1,2 +1,3 @@
 
-    printf("%c",c);
+    printf("%lf\n",result);
+    printf("%lld\n",res);

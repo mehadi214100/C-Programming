@@ -1,0 +1,1 @@
+{"name":"Local: loop_d","url":"c:\\Users\\Mehadi\\Documents\\Programming in C\\Codeforces\\loop_d.c","tests":[{"id":1681065975781,"input":"2200\n1020\n1999\n1000\n9999\n","output":"Wrong\nWrong\nCorrect\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Mehadi\\Documents\\Programming in C\\Codeforces\\loop_d.c","group":"local","local":true}
